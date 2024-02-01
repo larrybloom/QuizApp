@@ -12,23 +12,28 @@ Clone the Quiz App repository to your local machine using the following command:
 bash
 Copy code
 git clone https://github.com/larrybloom/QuizApp.git
-Open the Project in Visual Studio:
+
+# Open the Project in Visual Studio:
 
 Navigate to the project directory and open the solution file (QuizApp.sln) in Visual Studio 2022.
-Restore Packages:
+
+# Restore Packages:
 
 Once the project is open, right-click on the solution in Solution Explorer and select "Restore NuGet Packages" to ensure all dependencies are restored.
-Update Database:
+
+# Update Database:
 
 Open the Package Manager Console in Visual Studio (Tools -> NuGet Package Manager -> Package Manager Console).
 Run the following commands to apply migrations and update the database:
 bash
 Copy code
 Update-Database
-Set Startup Project:
+
+# Set Startup Project:
 
 Set the startup project to the API project. Right-click on the quiz-app project and select "Set as StartUp Project."
-Run the Application:
+
+# Run the Application:
 
 Press F5 or click on the "Start" button in Visual Studio to run the application.
 This will launch the ASP.NET Core API and open it in your default web browser.
